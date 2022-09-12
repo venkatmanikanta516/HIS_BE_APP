@@ -19,7 +19,7 @@ public class CitizenController {
 	@PostMapping("/insertcitizen")
 	public  CitizenEntity  insertCitizen(@RequestBody CitizenEntity citizen)
 	{
-		 
+		//testing git 
 	 return citizenService.insertCitizenService(citizen);
 		 
 	}
